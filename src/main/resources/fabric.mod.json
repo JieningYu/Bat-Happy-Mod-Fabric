@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "bathappymod",
+  "version": "${version}",
+
+  "name": "Bat Happy Mod",
+  "description": "This mod will make bat happy.",
+  "authors": [
+    "Yjn024"
+  ],
+  "contact": {
+  },
+
+  "license": "no license",
+  "icon": "assets/bathappy/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "meme.bathappy.BatHappy"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "*"
+  },
+  "suggests": {
+    "torcherino": "*"
+  }
+}
