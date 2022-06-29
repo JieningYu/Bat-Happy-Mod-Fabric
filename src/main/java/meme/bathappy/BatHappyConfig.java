@@ -16,8 +16,7 @@ public class BatHappyConfig {
             .disableHtmlEscaping()
             .create();
 
-    public List<String> bannedMods = new ArrayList<>(Arrays.asList(
-            "torcherino",
+    public List<String> bannedMods = new ArrayList<String>(Arrays.asList(
             "bacterium"
     ));
 
